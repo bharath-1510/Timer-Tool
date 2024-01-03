@@ -10,6 +10,8 @@ import { Router, RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
+  title = 'Timer Tool';
+
   time: number = 300;
   min: number = Math.floor(this.time / 60);
   sec: number = this.time % 60;
