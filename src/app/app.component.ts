@@ -49,6 +49,7 @@ export class AppComponent {
     this.min = Math.round(this.time / 60);
     this.sec = 0;
     this.hideStart = true;
+    this.hideResume = false;
   }
   onPause() {
     this.hideResume = true;
