@@ -8,3 +8,5 @@ timer will pause.<br>
 Resume button will appear when user paused the timer, on click on that button the 
 timer will resume.<br>
 On Click on reset button the time will be reset to 05:00<br>
+
+<b>https://bharath9747.github.io/Timer-Tool/</b>
