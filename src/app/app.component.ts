@@ -43,17 +43,13 @@ export class AppComponent {
     }
   }
   onReset() {
-    this.hidePause = false;	
+    this.hidePause = false;
     this.pauseTimer();
     this.time = 300;
     this.min = Math.round(this.time / 60);
     this.sec = 0;
     this.hideStart = true;
-<<<<<<< HEAD
-	this.hideResume = false;
-=======
     this.hideResume = false;
->>>>>>> e8bda5bdc7d4222dc9926367d8c99bb6ff15d068
   }
   onPause() {
     this.hideResume = true;
@@ -62,7 +58,6 @@ export class AppComponent {
   }
   onResume() {
     this.onStart();
-	
   }
   pauseTimer() {
     clearInterval(this.intervalId);
